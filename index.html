@@ -83,29 +83,33 @@
       align-items: center;
       gap: 12px;
     }
-    /* Team Logos */
+    
+    /* Exact Logo Styles matching Points Table Screenshot */
     .team-logo {
-      width: 24px;
-      height: 24px;
+      width: 26px;
+      height: 26px;
       border-radius: 3px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 11px;
-      font-weight: bold;
-      color: white;
-      text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+      flex-shrink: 0;
     }
-    .pbks { background: linear-gradient(135deg, #DD1D21, #A1080C); }
-    .rr   { background: linear-gradient(135deg, #EA1A85, #004B8C); }
-    .lsg  { background: linear-gradient(135deg, #00A8E8, #002B49); }
-    .srh  { background: linear-gradient(135deg, #FF8225, #B33000); }
-    .csk  { background: linear-gradient(135deg, #F9CD05, #1255A3); }
-    .rcb  { background: linear-gradient(135deg, #000000, #EC1C24); }
-    .mi   { background: linear-gradient(135deg, #004BA0, #D1AB3E); }
-    .gt   { background: linear-gradient(135deg, #1B2133, #1C85C8); }
-    .kkr  { background: linear-gradient(135deg, #3A225D, #F3A812); }
-    .dc   { background: linear-gradient(135deg, #17449B, #D71921); }
+    .team-logo svg {
+      width: 18px;
+      height: 18px;
+      fill: #ffffff;
+    }
+
+    .pbks { background-color: #d32f2f; } /* Red Shield */
+    .rr   { background-color: #e91e63; } /* Pink Crown */
+    .lsg  { background-color: #7a1c1c; } /* Maroon Garuda */
+    .srh  { background-color: #f4511e; } /* Orange Wings */
+    .csk  { background-color: #d4a017; } /* Yellow Lion */
+    .rcb  { background-color: #b71c1c; } /* Red Lion Shield */
+    .mi   { background-color: #0288d1; } /* Blue Hurricane */
+    .gt   { background-color: #0d1b2a; } /* Dark Blue Lightning */
+    .kkr  { background-color: #4a148c; } /* Purple Knight Helmet */
+    .dc   { background-color: #1a237e; } /* Dark Blue Dome */
 
     .team-name {
       font-size: 14px;
@@ -147,13 +151,17 @@
     <div class="match-meta">1st Match &bull; Jaipur</div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo pbks">PBKS</div>
+        <div class="team-logo pbks">
+          <svg viewBox="0 0 24 24"><path d="M12 2L4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-5.45 8-12V5l-8-3zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 12c-2.67 0-8 1.34-8 4v1h16v-1c0-2.66-5.33-4-8-4z"/></svg>
+        </div>
         <div class="team-name">PBKS</div>
       </div>
     </div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo rr">RR</div>
+        <div class="team-logo rr">
+          <svg viewBox="0 0 24 24"><path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1v-1h14v1z"/></svg>
+        </div>
         <div class="team-name">RR</div>
       </div>
     </div>
@@ -166,13 +174,17 @@
     <div class="match-meta">2nd Match &bull; Lucknow</div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo lsg">LSG</div>
+        <div class="team-logo lsg">
+          <svg viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 13c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+        </div>
         <div class="team-name">LSG</div>
       </div>
     </div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo srh">SRH</div>
+        <div class="team-logo srh">
+          <svg viewBox="0 0 24 24"><path d="M12 2.5L8 9h8l-4-6.5zm-7 8.5c0 3.87 3.13 7 7 7s7-3.13 7-7h-2c0 2.76-2.24 5-5 5s-5-2.24-5-5H5z"/></svg>
+        </div>
         <div class="team-name">SRH</div>
       </div>
     </div>
@@ -185,13 +197,17 @@
     <div class="match-meta">3rd Match &bull; Chennai</div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo csk">CSK</div>
+        <div class="team-logo csk">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        </div>
         <div class="team-name">CSK</div>
       </div>
     </div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo rcb">RCB</div>
+        <div class="team-logo rcb">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l-8-4v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-5.45 8-12V7l-8 4z"/></svg>
+        </div>
         <div class="team-name">RCB</div>
       </div>
     </div>
@@ -204,13 +220,17 @@
     <div class="match-meta">4th Match &bull; Mumbai</div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo mi">MI</div>
+        <div class="team-logo mi">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg>
+        </div>
         <div class="team-name">MI</div>
       </div>
     </div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo gt">GT</div>
+        <div class="team-logo gt">
+          <svg viewBox="0 0 24 24"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+        </div>
         <div class="team-name">GT</div>
       </div>
     </div>
@@ -223,13 +243,17 @@
     <div class="match-meta">5th Match &bull; Delhi</div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo kkr">KKR</div>
+        <div class="team-logo kkr">
+          <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-5.45 8-12V5l-9-4zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        </div>
         <div class="team-name">KKR</div>
       </div>
     </div>
     <div class="team-row">
       <div class="team-info">
-        <div class="team-logo dc">DC</div>
+        <div class="team-logo dc">
+          <svg viewBox="0 0 24 24"><path d="M12 2L4 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-5.45 8-12V5l-8-3zm0 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3z"/></svg>
+        </div>
         <div class="team-name">DC</div>
       </div>
     </div>
@@ -238,4 +262,5 @@
 
 </body>
 </html>
+
 
